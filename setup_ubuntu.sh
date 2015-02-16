@@ -30,3 +30,9 @@ sudo apt-get install exfat-fuse exfat-utils
 
 # install cmus music player
 sudo apt-get install cmus
+
+# some tweaks for git 
+source ~/dotfiles/git/git-completion.bash 
+source ~/dotfiles/git/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1                   
+export PS1="\[\033[01;34m\]\W\$(__git_ps1)$ \[\033[00m\]"
