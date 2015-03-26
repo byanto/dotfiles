@@ -47,6 +47,11 @@ let mapleader=","
 " Omni completion
 set omnifunc=syntaxcomplete#Complete
 
+" YouCompleteMe
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+" autocmd CompleteDone * pclose
+
 " More frequent updates for, e.g. signs
 set updatetime=750
 
